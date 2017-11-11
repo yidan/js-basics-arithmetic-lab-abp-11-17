@@ -11,6 +11,8 @@ newID = 1000000000 + oldID;
 
 ageIsValid = Number.isInteger(currentAge);
 
-let randomNumber= Math.random()*20;
+randomNumber= Math.random()*20;
 
-let randomUserID = Math.ceiling(Math.random(20)) + 1000000000;
+randomInteger = Math.floor(randomNumber)
+
+randomUserID = Math.ceiling(Math.random(20)) + 1000000000;
